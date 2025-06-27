@@ -1,0 +1,36 @@
+# 🔒 Environment Variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# 📦 Node modules
+node_modules/
+
+# 🧪 Logs & coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+coverage/
+
+# 🚀 Build / Output folders
+dist/
+build/
+.cache/
+.next/
+
+# 💻 OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 📄 Misc
+*.pem
