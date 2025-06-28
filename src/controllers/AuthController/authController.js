@@ -72,7 +72,7 @@ export function logoutUser(req, res) {
   res.cookie('token', '', {
     httpOnly: true,
     expires: new Date(0),
-    sameSite: 'strict',
+    sameSite: 'none',
     secure: process.env.NODE_ENV === 'production',
   });
 
