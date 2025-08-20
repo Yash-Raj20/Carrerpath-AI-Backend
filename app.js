@@ -25,7 +25,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "careerpathwithai.vercel.app",
+      "https://careerpathwithai.vercel.app",
     ],
     credentials: true,
   })
